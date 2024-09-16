@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.background{
+    background-image: url(/image/bg.jpg);
+    padding: 12Px 20px;
+}
+.nav-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+}
+.logo img{
+    width: 140px;
+}
+
+.drop-down-bar{
+    position: relative;
+}
+
+
+.drop-down{
+  position: absolute;
+  padding: 10px;
+  background-color: black;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.9s ease-in-out, visibility 0.9s ease-in-out;
+  
+}
+.two-items-row{
+display: flex;
+gap: 20px;
+height: 100%;
+}
+
+.first-item-col{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+
+}
+
+
+
+.icon-content-row{
+    display: flex;
+    background-color: beige;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.icon-content-row .icon{
+    width: 60px;
+}
+.icon-content-row .icon i{
+    font-size: 40px;
+    padding-top: 20px;
+}
+.icon-content-row .content {
+    width: 200px;
+    
+}
+.icon-content-row .content h4{
+    font-size: 19px;
+}
+
+.second-item-column{
+    display: flex;
+    gap: 10px;
+   
+}
+.second-item-column .card-img{
+    width: 200px;
+}
+.second-item-column .card-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.second-item-column .card-img{
+    position: relative;
+}
+.card-img .dashboad{
+    position: absolute;
+    left: 5px;
+    bottom: 0;
+    color: white;
+}
+.drop-down-bar:hover .drop-down{
+    opacity: 1;
+    visibility: visible;
+
+}
+
+
+
+
+
+
+
+
+.banner-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white ;
+}
+
+.banner-left h2{
+    font-size: 46px;
+    font-weight: 800;
+    font-family:cursive ;
+    margin-bottom: 30px;
+}
+.banner-left p{
+    width: 600px;
+    font-size: 19px;
+    font-weight: 600;
+}
+.banner-right img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;  
+    box-shadow: 20px 20px 20px 20px black;
+}
